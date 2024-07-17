@@ -4,7 +4,7 @@
 ## 部署案例
 | 硬件平台        | 链接                                         |
 |----------------|----------------------------------------------|
-| HI3519DV500         | [Yolov5](https://gitee.com/warren-wei/Algorithm-deployment-template-of-each-platform/tree/master/Projects/Hi3519DV500_yolov5) |
+| HI3519DV500         | [Yolov5](https://github.com/warren-wzw/Algorithm-deployment-template-of-each-platform/tree/master/Hisi/Hi3519_DV500) |
 
 ## 支持的平台包括
 ```
@@ -29,8 +29,8 @@ Algorthim_Deployment/
 
 | 硬件平台        | 链接                                         |
 |----------------|----------------------------------------------|
-| SS928          | [SS928部署教程](https://gitee.com/warren-wei/Algorithm-deployment-template-of-each-platform/tree/master/Hisi/SS928) |
-| Hi3519_DV500  | [Hi3519_DV500部署教程](https://gitee.com/warren-wei/Algorithm-deployment-template-of-each-platform/tree/master/Hisi/Hi3519_DV500) |
+| SS928          | [SS928部署教程](https://github.com/warren-wzw/Algorithm-deployment-template-of-each-platform/tree/master/Hisi/SS928) |
+| Hi3519_DV500  | [Hi3519_DV500部署教程](https://github.com/warren-wzw/Algorithm-deployment-template-of-each-platform/tree/master/Hisi/Hi3519_DV500) |
 
 
 部署步骤：
@@ -44,8 +44,8 @@ Algorthim_Deployment/
 ## 瑞芯微（Rockchip）平台
 | 硬件平台        | 链接                                         |
 |----------------|----------------------------------------------|
-| RV1126          | [RV1126部署教程](https://gitee.com/warren-wei/Algorithm-deployment-template-of-each-platform/tree/master/Rockchip/RV1126) |
-| RK3588  | [RK3588部署教程](https://gitee.com/warren-wei/Algorithm-deployment-template-of-each-platform/tree/master/Rockchip/RK3588) 
+| RV1126          | [RV1126部署教程](https://github.com/warren-wzw/Algorithm-deployment-template-of-each-platform/tree/master/Rockchip/RV1126) |
+| RK3588  | [RK3588部署教程](https://github.com/warren-wzw/Algorithm-deployment-template-of-each-platform/tree/master/Rockchip/RK3588) 
 
 部署步骤：
 
@@ -58,7 +58,7 @@ Algorthim_Deployment/
 ## 比特大陆（Bitmain）平台
 | 硬件平台        | 链接                                         |
 |----------------|----------------------------------------------|
-| BM1684X          | [BM1684X部署教程](https://gitee.com/warren-wei/Algorithm-deployment-template-of-each-platform/tree/master/Bitmain/BM1684X) |
+| BM1684X          | [BM1684X部署教程](https://github.com/warren-wzw/Algorithm-deployment-template-of-each-platform/tree/master/Bitmain/BM1684X) |
 
 部署步骤：
 
