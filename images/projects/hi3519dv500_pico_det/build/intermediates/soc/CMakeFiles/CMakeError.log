@@ -1,0 +1,106 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -00;-g;-00
+Id flags:  
+
+The output was:
+1
+cc: error: unrecognized command line option '-00'
+cc: error: unrecognized command line option '-00'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -00;-g;-00
+Id flags: -c 
+
+The output was:
+1
+cc: error: unrecognized command line option '-00'
+cc: error: unrecognized command line option '-00'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -00;-g;-00
+Id flags: -Aa 
+
+The output was:
+1
+cc: error: unrecognized command line option '-00'
+cc: error: unrecognized command line option '-00'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -00;-g;-00
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+cc: error: unrecognized command line option '-00'
+cc: error: unrecognized command line option '-00'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/linux/x86-arm/aarch64-v01c01-linux-gnu-gcc/bin/aarch64-v01c01-linux-gnu-gcc 
+Build flags: -00;-g;-00
+Id flags:  
+
+The output was:
+1
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/linux/x86-arm/aarch64-v01c01-linux-gnu-gcc/bin/aarch64-v01c01-linux-gnu-gcc 
+Build flags: -00;-g;-00
+Id flags: -c 
+
+The output was:
+1
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/linux/x86-arm/aarch64-v01c01-linux-gnu-gcc/bin/aarch64-v01c01-linux-gnu-gcc 
+Build flags: -00;-g;-00
+Id flags: --c++ 
+
+The output was:
+1
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/linux/x86-arm/aarch64-v01c01-linux-gnu-gcc/bin/aarch64-v01c01-linux-gnu-gcc 
+Build flags: -00;-g;-00
+Id flags: --ec++ 
+
+The output was:
+1
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '-00'
+aarch64-v01c01-linux-gnu-gcc: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/wzw/00-Ascend/project/pico_det/build/intermediates/soc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cf68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cf68.dir/build.make CMakeFiles/cmTC_6cf68.dir/build
+make[1]: Entering directory '/home/wzw/00-Ascend/project/pico_det/build/intermediates/soc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cf68.dir/testCCompiler.c.o
+/usr/bin/cc   -00 -g    -o CMakeFiles/cmTC_6cf68.dir/testCCompiler.c.o   -c /home/wzw/00-Ascend/project/pico_det/build/intermediates/soc/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option '-00'
+CMakeFiles/cmTC_6cf68.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6cf68.dir/testCCompiler.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6cf68.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory '/home/wzw/00-Ascend/project/pico_det/build/intermediates/soc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6cf68/fast' failed
+make: *** [cmTC_6cf68/fast] Error 2
+
+

@@ -1,0 +1,30 @@
+2023-07-26 11:28:25,262 - INFO - [AMCT]:[Config]: Generate config file:/home/warren/ss928/NNN_PC/amct/amct_onnx/sample/MNIST/outputs/calibration/tmp/config.json success!
+2023-07-26 11:28:25,262 - INFO - [AMCT]:[create_quant_config]: Create quant config file /home/warren/ss928/NNN_PC/amct/amct_onnx/sample/MNIST/outputs/calibration/tmp/config.json success.
+2023-07-26 11:28:25,268 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.transpose_fold_pass.TransposeFoldPass'>
+2023-07-26 11:28:25,268 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bn_mul_fusion_pass.BnMulFusionPass'>
+2023-07-26 11:28:25,268 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bn_add_fusion_pass.BnAddFusionPass'>
+2023-07-26 11:28:25,269 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.conv_bn_fusion_pass.ConvBnFusionPass'>
+2023-07-26 11:28:25,269 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.weight_calibration.WeightsCalibrationPass'>
+2023-07-26 11:28:25,428 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_act_calibration.InsertActCalibrationPass'>
+2023-07-26 11:28:25,429 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_search_n.InsertSearchNPass'>
+2023-07-26 11:28:25,433 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.set_fusion_info.SetFusionInfoPass'>
+2023-07-26 11:28:25,434 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2023-07-26 11:28:25,478 - INFO - [AMCT]:[Utils]: The model file is saved in /home/warren/ss928/NNN_PC/amct/amct_onnx/sample/MNIST/outputs/calibration/tmp/modified_model.onnx
+2023-07-26 11:28:25,638 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.update_fusion_info.UpdateFusionInfoPass'>
+2023-07-26 11:28:25,639 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.delete_bypass_node_pass.DeleteBypassNodePass'>
+2023-07-26 11:28:25,640 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.delete_bypass_node_pass.DeleteBypassNodePass'>
+2023-07-26 11:28:25,640 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.gemm_transb_optimize_pass.GemmTransBOptimizePass'>
+2023-07-26 11:28:25,778 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_quant_pass.InsertQuantPass'>
+2023-07-26 11:28:25,779 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_dequant_pass.InsertDequantPass'>
+2023-07-26 11:28:25,780 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.mult_output_with_quant_optimizer.MultQuantOptimizerPass'>
+2023-07-26 11:28:25,781 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.quant_fusion_pass.QuantFusionPass'>
+2023-07-26 11:28:25,781 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.weight_quant_pass.WeightQuantPass'>
+2023-07-26 11:28:25,942 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bias_quant_pass.BiasQuantPass'>
+2023-07-26 11:28:25,943 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.gen_fusion_json.GenFusionJsonPass'>
+2023-07-26 11:28:25,946 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2023-07-26 11:28:25,948 - INFO - [AMCT]:[Utils]: The model file is saved in /home/warren/ss928/NNN_PC/amct/amct_onnx/sample/MNIST/outputs/calibration/MNIST_deploy_model.onnx
+2023-07-26 11:28:25,948 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.update_ascendop_pass.UpdateAscendOpPass'>
+2023-07-26 11:28:25,948 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.weight_fakequant_pass.WeightFakequantPass'>
+2023-07-26 11:28:26,005 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bias_fakequant_pass.BiasFakequantPass'>
+2023-07-26 11:28:26,006 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2023-07-26 11:28:26,051 - INFO - [AMCT]:[Utils]: The model file is saved in /home/warren/ss928/NNN_PC/amct/amct_onnx/sample/MNIST/outputs/calibration/MNIST_fake_quant_model.onnx

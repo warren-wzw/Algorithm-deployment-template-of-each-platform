@@ -1,0 +1,11 @@
+{
+    "dump": {
+        "dump_list": [
+            {
+                "model_name": "resnet50"
+            }
+        ],
+        "dump_mode": "output",
+        "dump_path": "./"
+    }
+}

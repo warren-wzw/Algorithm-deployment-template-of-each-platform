@@ -1,0 +1,10 @@
+量化
+atc --model=/home/wzw/00-Ascend/model/pico_det_lcnet/pico_det_lcnet.onnx \
+--framework=5 \
+--output=/home/wzw/00-Ascend/model/pico_det_lcnet/pico_det_lcnet_quat\
+--image_list="image:./image_data.bin"  --input_type="image:FP32"
+不量化
+atc --model=/home/wzw/00-Ascend/model/pico_det_lcnet/pico_det_lcnet.onnx \
+--framework=5 \
+--output=/home/wzw/00-Ascend/model/pico_det_lcnet/00-result/pico_det_lcnet \
+--image_list="image:./image_data.bin"  --input_type="image:FP32"  \ --net_optimize_enable=0 --layer_fusion_enable=0  --layer_m2m_enable=0S

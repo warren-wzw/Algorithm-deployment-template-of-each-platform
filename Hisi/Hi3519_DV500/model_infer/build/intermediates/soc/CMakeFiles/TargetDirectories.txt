@@ -1,0 +1,7 @@
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/install/strip.dir
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/edit_cache.dir
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/main.dir
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/rebuild_cache.dir
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/list_install_components.dir
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/install/local.dir
+/home/wzw/00-Ascend/project/template/build/intermediates/soc/CMakeFiles/install.dir
