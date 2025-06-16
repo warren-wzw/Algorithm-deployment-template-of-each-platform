@@ -73,6 +73,10 @@ Algorthim_Deployment/
     每个平台可能有不同的编译工具链和模型转换工具，确保根据目标平台的要求进行相应的配置和调整。
     请参考各平台的官方文档和开发者社区，获取更多关于算法部署和性能优化的指导和建议。
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=warren-wzw/Algorithm-deployment-template-of-each-platform&type=Date)](https://star-history.com/#warren-wzw/Algorithm-deployment-template-of-each-platform&Date)
+
 ## 问题反馈
 以上是对不同平台算法部署模板的基本介绍和指南。根据具体的硬件平台和算法需求，您可能需要进一步深入研究和实践，以实现最佳的算法性能和效果。
  
